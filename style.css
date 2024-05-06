@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Styles for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: center; /* Vertically center items */
+}
+
+/* Styles for the title */
+.titulito {
+    /* Align to the left */
+}
+
+/* Styles for the menu */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Styles for the menu items */
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Styles for the toggle theme button */
+.theme {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content2 {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the paragraphs */
+.content2 p {
+    margin-left: 20px; /* Add some spacing between the checkmark and text */
+    position: relative; /* Position relative for absolute positioning of checkmark */
+}
+
+/* Styles for the checkmark */
+.content2 p::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute;
+    left: -20px; /* Move the checkmark to the left of the paragraph */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 20px;
+    border: 2px solid #000;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
